@@ -1,0 +1,20 @@
+# config.yml
+antiCheat:
+  speedHack:
+    enabled: true
+    maxSpeed: 0.7  # Максимальная разрешённая скорость (по умолчанию 0.7)
+  autoClicker:
+    enabled: true
+    maxClickInterval: 100  # Максимальное время между кликами (в миллисекундах)
+  flyHack:
+    enabled: true
+    kickOnViolation: true  # Кикать игрока при нарушении
+  noFallHack:
+    enabled: true
+    kickOnViolation: true
+  highPing:
+    enabled: true
+    maxPing: 500  # Максимально допустимый пинг (в миллисекундах)
+  notifications:
+    enabled: true  # Включение уведомлений для администраторов
+    adminPermission: "anticheat.notify"  # Разрешение для отправки уведомлений
